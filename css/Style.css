@@ -1,3 +1,21 @@
+.encabezado{
+  display: flex;
+  justify-content: space-between;
+}
+
+.encabezado img{
+  height: 55px;
+}
+
+.opciones{
+  display: flex;
+}
+
+.opciones p a{
+  text-decoration: none;
+  margin: 32px;
+}
+
 .suscribirse{
-   border: green;
+  border: 1px solid green ;
 }
