@@ -1,3 +1,13 @@
+body{
+  background: cornsilk;
+}
+
+.fondo img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
 .encabezado{
   display: flex;
   justify-content: space-between;
@@ -19,3 +29,39 @@
 .suscribirse{
   border: 1px solid green ;
 }
+
+.categorias{
+  display: flex;
+  justify-content: space-around;
+}
+
+.categorias img{
+  height: 400px;
+}
+
+.iconos img{
+  height: 40px;
+  border-radius: 40px;
+}
+
+.fin{
+  display: flex;
+  justify-content: space-between;
+  background: white
+}
+
+.about{
+  display: flex;
+  justify-content: space-between;
+  background: white;
+}
+
+.about h1{
+  text-align: center;
+}
+
+.suscripcion{
+  text-align: center;
+}
+
+
